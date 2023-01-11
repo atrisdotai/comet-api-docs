@@ -6,8 +6,9 @@
 ## Reference
 
 * [API Reference](reference/api-reference/README.md)
-  * [Community (TODO)](reference/api-reference/community-todo.md)
-  * [Definitions](reference/api-reference/definitions.md)
-  * [Mints (TODO)](reference/api-reference/mints-todo.md)
+  * [Airdrop](reference/api-reference/airdrop.md)
+  * [Collection](reference/api-reference/collection.md)
+  * [Gallery](reference/api-reference/gallery.md)
+  * [Usage](reference/api-reference/usage.md)
   * [Users (example)](reference/api-reference/users-example.md)
   * [Pets (example)](reference/api-reference/pets-example.md)
