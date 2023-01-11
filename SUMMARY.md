@@ -1,14 +1,13 @@
 # Table of contents
 
-* [Welcome!](README.md)
-* [Quick Start](quick-start.md)
+* [Welcome to the Comet SDK!](README.md)
 
 ## Reference
 
-* [API Reference](reference/api-reference/README.md)
-  * [Airdrop](reference/api-reference/airdrop.md)
-  * [Collection](reference/api-reference/collection.md)
-  * [Gallery](reference/api-reference/gallery.md)
-  * [Usage](reference/api-reference/usage.md)
-  * [Users (example)](reference/api-reference/users-example.md)
-  * [Pets (example)](reference/api-reference/pets-example.md)
+* [Comet SDK Reference](reference/comet-sdk-reference/README.md)
+  * [Comet REST API](reference/comet-sdk-reference/comet-rest-api/README.md)
+    * [Collections](reference/comet-sdk-reference/comet-rest-api/collections.md)
+    * [Airdrops](reference/comet-sdk-reference/comet-rest-api/airdrops.md)
+    * [Gallery](reference/comet-sdk-reference/comet-rest-api/gallery.md)
+    * [Usage](reference/comet-sdk-reference/comet-rest-api/usage.md)
+  * [Comet React SDK](reference/comet-sdk-reference/comet-react-sdk.md)

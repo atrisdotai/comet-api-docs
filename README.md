@@ -1,21 +1,17 @@
-# Welcome!
+---
+description: >-
+  The Comet SDK lets you launch and distribute NFT collections, and get insights
+  on the people who own them.
+---
 
-## Welcome to MyAPI
+# Welcome to the Comet SDK!
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
-
-## Want to jump right in?
-
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
-
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
-{% endcontent-ref %}
+Here you'll find all the documentation you need to get up and running with the Comet SDK.
 
 ## Want to deep dive?
 
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
+Dive a little deeper and start exploring our SDK reference to get an idea of everything that's possible:
 
-{% content-ref url="reference/api-reference/" %}
-[api-reference](reference/api-reference/)
+{% content-ref url="reference/comet-sdk-reference/" %}
+[comet-sdk-reference](reference/comet-sdk-reference/)
 {% endcontent-ref %}

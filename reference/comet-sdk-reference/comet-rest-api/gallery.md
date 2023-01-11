@@ -1,13 +1,25 @@
+---
+description: View a user's gallery without talking to an RPC node.
+---
+
 # Gallery
 
 ## Get Gallery
 
-{% swagger method="get" path="/gallery" baseUrl="https://api.withcomet.com/rest/v1" summary="Gets all tokens owned by a user or address." %}
+{% swagger method="get" path="/gallery" baseUrl="https://api.withcomet.com/v1" summary="Gets all tokens owned by a user or address." expanded="true" %}
 {% swagger-description %}
+One of 
 
+`address`
+
+ or 
+
+`userId`
+
+ is required.
 {% endswagger-description %}
 
-{% swagger-parameter in="header" name="authorization" type="String" required="true" %}
+{% swagger-parameter in="header" name="Authorization" type="String" required="true" %}
 Bearer token
 {% endswagger-parameter %}
 
@@ -20,7 +32,7 @@ Comet User ID
 {% endswagger-parameter %}
 
 {% swagger-response status="200: OK" description="Successful operation" %}
-```javascript
+```json
 {
     "gallery": [
         {

@@ -1,13 +1,17 @@
+---
+description: Get your API usage history.
+---
+
 # Usage
 
 ## Get API usage
 
-{% swagger method="get" path="/usage" baseUrl="https://api.withcomet.com/rest/v1" summary="Gets API usage." %}
+{% swagger method="get" path="/usage" baseUrl="https://api.withcomet.com/v1" summary="Gets API usage." expanded="true" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter in="header" name="authorization" type="String" required="true" %}
+{% swagger-parameter in="header" name="Authorization" type="String" required="true" %}
 Bearer token
 {% endswagger-parameter %}
 
