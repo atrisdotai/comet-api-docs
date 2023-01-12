@@ -10,6 +10,10 @@ With Comet's REST API, you can launch new NFT collections, distribute them quick
 Comet is currently on version 1 of the REST API. The base URL for all requests is `https://api.withcomet.com/v1/`.
 {% endhint %}
 
+{% hint style="info" %}
+Unless specified otherwise, all API endpoints accept a `Content-Type` of `application/json`.
+{% endhint %}
+
 ### Collections
 
 With the `/collection` endpoints, you can query existing NFT collections or launch new ones.
