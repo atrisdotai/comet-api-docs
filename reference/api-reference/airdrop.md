@@ -1,7 +1,3 @@
----
-description: Execute complex airdrops with a single API call.
----
-
 # Airdrops
 
 ## Launch Airdrop

@@ -26,8 +26,8 @@ With the `/collection` endpoints, you can query existing NFT collections or laun
 
 Once you've launched a new collection, start giving it out to your users! The `/airdrop` endpoints give fine-grained control over who receives which tokens.
 
-{% content-ref url="airdrops.md" %}
-[airdrops.md](airdrops.md)
+{% content-ref url="../../api-reference/airdrop.md" %}
+[airdrop.md](../../api-reference/airdrop.md)
 {% endcontent-ref %}
 
 ### Gallery

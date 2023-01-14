@@ -229,7 +229,7 @@ id of collection
 {% swagger-response status="200: OK" description="Successful operation" %}
 ```javascript
 {
-    "owners": [
+    "holders": [
         {
             "address": {
                 "chainType": "solana",
