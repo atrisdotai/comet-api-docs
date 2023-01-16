@@ -3,7 +3,7 @@
 * [Welcome to the Comet SDK!](README.md)
 * [Getting Started](getting-started.md)
 * [Project Guides](project-guides/README.md)
-  * [Launch and mint your first NFT collection with Comet](project-guides/launch-and-mint-your-first-nft-collection-with-comet.md)
+  * [Launch and mint your first NFT collection](project-guides/launch-and-mint-your-first-nft-collection.md)
 
 ## Reference
 
