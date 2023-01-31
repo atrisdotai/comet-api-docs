@@ -14,6 +14,6 @@ A RESTful API for launching, fetching, and airdropping NFT collections.
 
 A drop-in React component to instantly add Web3 capabilities to any website.
 
-{% content-ref url="comet-react-sdk.md" %}
-[comet-react-sdk.md](comet-react-sdk.md)
+{% content-ref url="comet-react-sdk/" %}
+[comet-react-sdk](comet-react-sdk/)
 {% endcontent-ref %}

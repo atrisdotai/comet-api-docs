@@ -1,4 +1,4 @@
-# Launch and mint your first NFT collection with Comet
+# Launch and mint your first NFT collection
 
 _Time: 15-30min_
 
@@ -6,7 +6,7 @@ The Comet SDK lets you launch new Solana NFT collections, and lets anyone mint t
 
 ## First things first
 
-You’ll need your Comet API key. For instructions, go to the link below:
+You’ll need your **Comet API key** and **Comet publishable key**. For instructions, go to the link below:
 
 {% content-ref url="../getting-started.md" %}
 [getting-started.md](../getting-started.md)
@@ -77,27 +77,52 @@ Once `deployed` is equal to `true`, you’re officially live on Solana mainnet! 
 
 ## Letting others mint your collection
 
-Comet provides a React component you can drop in to any project, which lets any user mint your NFT (including accepting credit card if the NFT requires it). To get started, create a new [Create React App](https://create-react-app.dev/) project (instructions are in the link). Once you’ve created it, just do the following:
+Comet provides a React component you can drop in to any project, which lets any user mint your NFT (including accepting credit card if the NFT requires it). To get started, create a new [Create React App](https://create-react-app.dev/docs/getting-started/) project (instructions are in the link). Once you’ve created it, just do the following:
 
-First, install the Comet React SDK in your project:
+First, install the Comet React SDK (v1 alpha) in your project:
 
 ```bash
-npm install --save @comet-labs/react
+npm install --save @comet-labs/react@alpha
 ```
 
-Then, in `App.js`, import the Comet button and add it to the page. For `collectionId`, use the ID of the collection you launched in the first part of this tutorial.
+In your `index.js`, you will need to wrap your entire app in a `CometProvider`. The `CometProvider` component unlocks Comet's Web3 functionality for the rest of your app's components. You will need to provide your **Comet publishable key** here.
+
+{% code title="index.js" %}
+```tsx
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App';
+import './index.css';
+
+import { CometProvider } from '@comet-labs/react';
+
+const cometProviderConfig = {
+  publishableKey: '<PUBLISHABLE KEY>',
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <CometProvider config={cometProviderConfig}>
+      <App />
+    </CometProvider>
+  </React.StrictMode>
+);
+```
+{% endcode %}
+
+Then, in your `App.js`, you can simply import the `MintButton` component and drop it into the page. Here you will need the `collectionId` from the collection you created earlier in the tutorial.
 
 {% code title="App.js" %}
 ```jsx
 import logo from './logo.svg';
 import './App.css';
-import { CometButton } from '@comet-labs/react';
+import { MintButton } from '@comet-labs/react';
 
 function App() {
   return (
     <div className="App">
-      <CometButton
-        action="mint"
+      <MintButton
         collectionId="<ID>"
       />
     </div>
