@@ -7,7 +7,7 @@ description: Drop-in React components that make Web3 integration easy
 With Comet's React SDK, you can embed Comet's functionality – Instant Wallets, zero-transaction NFT minting with credit cards, and galleries – into your own website. It's the easiest way to get NFTs into the hands of your most loyal users.
 
 {% hint style="warning" %}
-The Comet React SDK is in early stage development; APIs are subject to change significantly. This documentation is for our alpha version, `v1.0.0-alpha.0.`
+The Comet React SDK is in early stage development; APIs are subject to change significantly. This documentation is for our alpha version, `v1.0.0-alpha.1.`
 {% endhint %}
 
 ## Components
