@@ -82,7 +82,7 @@ Comet provides a React component you can drop in to any project, which lets any 
 First, install the Comet React SDK (v1 alpha) in your project:
 
 ```bash
-npm install --save @comet-labs/react@alpha
+npm install --save @comet-labs/react
 ```
 
 In your `index.js`, you will need to wrap your entire app in a `CometProvider`. The `CometProvider` component unlocks Comet's Web3 functionality for the rest of your app's components. You will need to provide your **Comet publishable key** here.
