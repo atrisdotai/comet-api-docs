@@ -14,6 +14,10 @@ Comet is currently on version 1 of the REST API. The base URL for all requests i
 Unless specified otherwise, all API endpoints accept a `Content-Type` of `application/json`.
 {% endhint %}
 
+## Comet Node SDK
+
+Comet has a Node.js wrapper for the REST API here: [https://www.npmjs.com/package/@comet-labs/node](https://www.npmjs.com/package/@comet-labs/node).
+
 ### Collections
 
 With the `/collection` endpoints, you can query existing NFT collections or launch new ones.
